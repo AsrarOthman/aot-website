@@ -10,10 +10,7 @@ function Home() {
         <SideNav />
         <div sx={{ display: "flex" }} className="mt mother ">
           <div>
-            <p>
-              {" "}
-              Nama saya Asrar Bin Othman love Nurul Ameela Binti Mohd Nasir
-            </p>
+            <h1 className="info">This website is under construction</h1>
           </div>
         </div>
       </Box>

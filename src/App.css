@@ -137,3 +137,11 @@ width: 100%;
 border-radius: 5px;
 background-color: white;
 }
+
+.info{
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace;
+  font-style: italic;
+  font-weight: 200;
+
+}
