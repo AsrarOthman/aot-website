@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap");
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.mt {
+  margin-top: 60px;
+}
+
+.mother {
+  /* border: 3px solid blue; */
+  height: 100vh;
+  width: 100%;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {
+  margin: 0 -5px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  margin: 20px;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.card01 {
+  background:#2a928e;
+  position: relative;
+  flex: 1;
+  max-width: 300px;
+  height: 100px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.txtCard01 {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.mt2 {
+  margin-top: 2px;
+}
+.mt10 {
+  margin-top: 10px;
+}
+
+.fs30 {
+  font-size: 30px;
+}
+
+.fs15 {
+  margin-top: -5px;
+  font-size: 15px;
+  color: red;
+}
+
+hr.new1 {
+  border-top: 2px solid rgb(182, 182, 182);
+}
+
+.test{
+  position: absolute;
+  /* background-color: red; */
+  /* border: 2px solid rgb(142, 142, 142); */
+  border-radius: 5px;
+  height: 30px;
+  width: 100%;
+  bottom: 0;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFUBI_LD510imHjBvClX_ihXKvPHAuiJ7gC-g21PU4emMneT01huECA3Es75r25lYVer8&usqp=CAU);
+}
+/* ............................Forecast */
+
+.filterbox1{
+height: 300px;
+width: 100%;
+/* Setting a border around the element with a width of 1 pixel, a solid line style, and a color of red. */
+/* border: 1px solid red; */
+border-radius: 5px;
+background-color: white;
+}
